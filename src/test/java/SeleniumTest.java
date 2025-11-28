@@ -15,7 +15,7 @@ public class SeleniumTest {
         WebDriver driver = new FirefoxDriver();
 
         driver.get("https://www.saucedemo.com/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();
 
         driver.findElement(By.xpath("//*[@id='user-name']")).sendKeys("standard_user");
@@ -42,9 +42,7 @@ public class SeleniumTest {
 
         WebElement complete = driver.findElement(By.xpath("//h2[@class='complete-header']"));
 
-
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        Assert.assertTrue(product.isDisplayed(), "Element Tidak Muncul!");
+        Assert.assertTrue(complete.isDisplayed(), "Element Tidak Muncul!");
 
         driver.quit();
     }
