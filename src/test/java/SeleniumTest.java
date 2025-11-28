@@ -43,7 +43,7 @@ public class SeleniumTest {
         WebElement complete = driver.findElement(By.xpath("//h2[@class='complete-header']"));
 
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         Assert.assertTrue(product.isDisplayed(), "Element Tidak Muncul!");
 
         driver.quit();
