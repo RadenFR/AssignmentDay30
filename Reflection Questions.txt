@@ -1,2 +1,0 @@
-1. Menurut saya yang mempengaruhi yaitu dengan mengetahui urutan aksi yang akan dilakukan karena dengan mengetahui urutan aksi QA dapat mencari locator yang dicari. Resiko yang mungkin dilakukan dalam mengatur urutan aksi yaitu jika lupa atau tidak mengetahui urutan aksi yang dibuat akan memakan waktu pada saat pengujian
-2. Pemahaman yang saya dapatkan dalam tugas ini, dalam melakukan automation dibutuhkan atribut yang unik disetiap page atau halaman, mungkin atribut sebagai penanda expected yang didapat seperti yang diinginkan
